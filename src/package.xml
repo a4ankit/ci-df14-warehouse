@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>project8</fullName>
     <types>
-        <members>*</members>
+        <members>AClass</members>
+        <members>AClassTest</members>
+        <members>A_TemperatureConverter</members>
+        <members>A_TemperatureConverterTest</members>
+        <members>ContactsTodayController</members>
+        <members>ContactsTodayController_test</members>
+        <members>LeadProcessor</members>
+        <members>LeadProcessorTest</members>
+        <members>WarehouseDataInstall</members>
         <name>ApexClass</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexComponent</name>
-    </types>
-    <types>
-        <members>*</members>
+        <members>WarehouseDataInstall</members>
         <name>ApexPage</name>
     </types>
     <types>
-        <members>*</members>
-        <name>ApexTrigger</name>
+        <members>Warehouse</members>
+        <name>CustomApplication</name>
     </types>
     <types>
-        <members>*</members>
-        <name>CustomApplication</name>
+        <members>Invoice__c.Invoice_Total__c</members>
+        <members>Invoice__c.Status__c</members>
+        <members>Line_Item__c.Invoice__c</members>
+        <members>Line_Item__c.Line_Item_Total__c</members>
+        <members>Line_Item__c.Merchandise__c</members>
+        <members>Line_Item__c.Quantity__c</members>
+        <members>Line_Item__c.Unit_Price__c</members>
+        <members>Merchandise__c.Price__c</members>
+        <members>Merchandise__c.Quantity__c</members>
+        <name>CustomField</name>
     </types>
     <types>
         <members>Invoice__c</members>
@@ -27,18 +40,23 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Data</members>
+        <members>Invoice__c</members>
+        <members>Merchandise__c</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>*</members>
-        <name>StaticResource</name>
+        <members>Invoice__c.All</members>
+        <members>Merchandise__c.All</members>
+        <name>ListView</name>
     </types>
     <types>
-        <members>Invoice__c</members>
-        <members>Line_Item__c</members>
-        <members>Merchandise__c</members>
-        <name>Workflow</name>
+        <members>Line_Item__c.Validate_Quantity</members>
+        <name>ValidationRule</name>
     </types>
-    <version>28.0</version>
+    <types>
+        <members>Line_Item__c.Copy_Unit_Price</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <version>42.0</version>
 </Package>
